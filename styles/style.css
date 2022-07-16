@@ -12,23 +12,34 @@ White: #FFF
 
 nav{
     display: flex;
-    flex-direction: row;
-    position: fixed;
 }
 
-header img{
-    width: 100px;
+.logo{
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: 50px;
+}
+
+.divlogo{
+    
+}
+.navlistdiv{
+    display: flex;
+    flex-direction: flex-end;
 }
 
 header .navlist{
-    display: flex;
-    justify-content: space-around;
     list-style: none;
+    display: flex;
+}
+
+.navlist li{
+    margin: 0px 5px;
 }
 
 .landing{
-    position: relative;
-    top: 50px;
+    
     width: 100%;
 
 }
@@ -42,14 +53,56 @@ header .navlist{
 
 /*div1 : What's on spotify? */
 
-
+.whatsonspotify > h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
 
 .threethings{
     display: flex;
-    justify-content: space-around;
-
+    text-align: center;
+    justify-content: center;
 }
 
 .threethings img{
     width: 100px;
+}
+
+.threethings h3{
+    color: green;
+}
+
+.threethings > div >p {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+/*Green area*/
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.threethingstodo{
+    display: flex;
+    flex-direction: column;
+}
+
+.threethingstodo > p{
+    
+}
+
+.greencontent{
+    display: flex;
+    ;
+}
+
+#spotifywhite{
+    width: 80px;
+}
+
+#kanyewest{
+    width: 200px;
 }

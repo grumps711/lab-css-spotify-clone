@@ -6,3 +6,50 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/*Navigation bar*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+header img{
+    width: 100px;
+}
+
+header .navlist{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.landing{
+    position: relative;
+    top: 50px;
+    width: 100%;
+
+}
+
+.textoverlanding{
+    display: flex;
+    z-index: 0;
+    color: blue;
+
+}
+
+/*div1 : What's on spotify? */
+
+
+
+.threethings{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.threethings img{
+    width: 100px;
+}

@@ -6,7 +6,14 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+    font-family: sans-serif;
+}
 
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
 
 /*Header*/
 
@@ -53,6 +60,9 @@ nav li{
     display: flex;
     flex-direction: column;
     color: white;
+    text-align: center;
+    width: 500px;
+    font-size: larger;
 }
 
 /*div1 : What's on spotify? */
@@ -61,12 +71,15 @@ nav li{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #00B172;
+    
 }
 
 .threethings{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 .threethings img{
@@ -75,6 +88,7 @@ nav li{
 
 .threethings h3{
     color: #00B172;
+    font-weight: 750;
 }
 
 .threethings > div >p {
@@ -89,26 +103,39 @@ nav li{
     color: white;
 }
 
+.h2div > h2{
+    text-decoration: underline;
+}
+
+.h2div{
+    position: relative;
+    
+    top: 50px;
+    margin-left: 50px;
+}
+
+
 .threethingstodo{
     display: flex;
     flex-direction: column;
-}
-
-.threethingstodo > p{
-    
+    margin: 20px 50px;
+   
 }
 
 .greencontent{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 #spotifywhite{
     width: 80px;
     height: 80px;
     max-width: 100;
+    margin: 10px;
 }
 
 #kanyewest{
     width: 200px;
+    margin: 30px;
 }
